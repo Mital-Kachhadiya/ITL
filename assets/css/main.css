@@ -2190,7 +2190,6 @@ section {
   background-color: var(--color-secondary); /* Red background color */
   color: white; /* Dark red text color */
   padding: 10px 0; /* Padding for top and bottom */
-  z-index: 1;
 }
 .header{
   top: 40px;
@@ -2777,5 +2776,10 @@ border-radius: 30px;
   left: 0;
   top: -3px;
   color: var(--color-primary);
+}
+
+
+.hide-top-bar {
+  display: none;
 }
 

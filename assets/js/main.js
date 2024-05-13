@@ -5,6 +5,19 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+document.addEventListener("DOMContentLoaded", function() {
+  const mobileNavShow = document.querySelector(".mobile-nav-show");
+  const mobileNavHide = document.querySelector(".mobile-nav-hide");
+  const topBar = document.getElementById("top-bar");
+
+  mobileNavShow.addEventListener("click", function() {
+    topBar.classList.add("hide-top-bar");
+  });
+
+  mobileNavHide.addEventListener("click", function() {
+    topBar.classList.remove("hide-top-bar");
+  });
+});
 
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
